@@ -16,7 +16,7 @@
 		// ----------------------------------- //
 		
 		this.defaults = {
-		    minOpacity: 0.7,
+		    minOpacity: 0.3,
 		    maxOpacity: 1,
 		    transition: 200,
 		    delay: 75,
