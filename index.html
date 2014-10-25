@@ -1,7 +1,9 @@
 <html>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://d3js.org/topojson.v1.min.js"></script>
-<script src="http://datamaps.github.io/scripts/datamaps.world.min.js"></script>
+<script src="http://datamaps.github.io/scripts/datamaps.all.min.js"></script>
+
+<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
 	#container {
@@ -14,10 +16,14 @@
 <h1>Radio Monsters</h1>
 <div href="#map" id="container"></div>
 <script>
-    var map = new Datamap({element: document.getElementById('container')});
+    var map = new Datamap(
+    	{
+    		element: document.getElementById('container'),
+    		scope: 'world'
+    	});
 </script>
 
-<div class="story_box" a name="map"> 
+<div class="story_box"> 
 	<h2>Story 1</h2>
 		<p>Professor Name</p>
 		<p>Name of story</p>
