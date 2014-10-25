@@ -20,7 +20,7 @@
 		    maxOpacity: 1,
 		    transition: 200,
 		    delay: 75,
-		    probability: 0.1
+		    probability: 0.4
 		};
 
         // Public Methods

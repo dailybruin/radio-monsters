@@ -1,4 +1,13 @@
 h1 {
+      text-align: center 
       font-size: 45px;
       font-family: 'Creepster', cursive;
    }
+#container {
+	position: relative;
+	width: 500px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
