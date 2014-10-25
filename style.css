@@ -11,3 +11,10 @@ h1 {
 	margin-left: auto;
 	margin-right: auto
 }
+
+.story_box {
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
