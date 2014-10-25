@@ -63,8 +63,9 @@
 		        'USA': {fillKey: 'USA'}
 		    },
  	        done: function(datamap) {
-	            datamap.svg.selectAll('.datamaps-subunit').on('click', function(geography) {
-	                alert(geography.properties.name);
+	            datamap.svg.selectAll('.datamaps-subunit').on('click', function(geography, data) {
+	            	console.log(data.name);
+	            	console.log(geography.properties);
 	            });
 	        }
 
@@ -75,6 +76,10 @@
     (function() {
         $("h1").flicker();
     }());
+
+    $(".CAN").on('click', function(){
+    	alert("hello");
+    })
 </script>
 
 </html>
