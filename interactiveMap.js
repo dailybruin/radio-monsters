@@ -32,10 +32,15 @@ var map = new Datamap(
 
         geographyConfig: {
         popupTemplate: function(geo, data) {
-        	if (geo.properties.name == "United States of America")
-            {
-            	return ['<div class="hoverinfo">','Country: '+
-                geo.properties.name + '<br>'+ 'Professor: ','</div>'].join('');}
+        	for (var i = 0; i < story_data.length; i++) 
+        	{
+        		if (geo.properties.name == story_data[i].country_name)
+            	{
+            		return ['<div class="hoverinfo">', story_data[i].title, '<br>',
+            		'Country: ',story_data[i].country_name,
+            		'<br>', 'Professor: ', story_data[i].professor, '</div>'].join('');
+            	}
+            }
          
         }
     }
