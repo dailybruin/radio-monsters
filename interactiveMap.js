@@ -67,13 +67,21 @@ $(document).ready(function(){
      		 +'<div class="caption">'+'<h3>'+ story_data[i].title+ '</h3>'
      		 +'<p>'+'Professor: '+story_data[i].professor+'</p>'
         	 +'<p>'+story_data[i].description+'</p>'
-        	 +'<audio controls preload="none">'+'<source src="'+story_data[i].audio_link+'" type="audio/mpeg">'+'</audio>' +
-        	 '<a class = "link_to_top">Back to Top</a>' 
-        	 +'</div>'+'</div>'+'</div>'
+        	 +'<audio controls preload="none">'+'<source src="'+story_data[i].audio_link+'" type="audio/mpeg">'+'</audio>' 
+        	 +'<div class="toplink">'
+        	 +'<button class="btn btn-default btn-md">Back to Top</button>' 
+        	 +'</div>' 
+        	 +'</div>'+'</div>' + '</div>'
         	 
 		)}
+		$(".toplink").on('click', function() {
+			scrollToAnchor("top");
+		})
+
 	}
 );
+
+
 
 
 $(".datamaps-subunit").on('click', function(){
@@ -82,6 +90,3 @@ $(".datamaps-subunit").on('click', function(){
 	scrollToAnchor(country_code); 
 })
 
-$(".link_to_top").on('click', function() {
-	scrollToAnchor("top");
-})
