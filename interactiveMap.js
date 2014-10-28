@@ -54,10 +54,14 @@ $(".CAN").on('click', function(){
 })
 
 
-$('#stories').ready(function(){
-		for (var i = 0; i < story_data.length; i++) {
-			console.log(story_data[i]);
-		}
+$(document).ready(function(){
+	for (var i = 0; i < story_data.length; i++) {
+		$("#stories").append(
+			'<div class="story_box">'+'<h2>'+story_data[i].title+'</h2>'+
+			'<p>'+'Professor: '+story_data[i].professor+'</p>'+
+			'<p>'+story_data[i].description+'</p>'+
+			'<audio controls preload="none">'+'<source src="'+story_data[i].audio_link+'" type="audio/mpeg">'+'</audio>'
+		)}
 	}
 );
 
