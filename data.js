@@ -20,5 +20,12 @@ var story_data = [
 			"audio_link": "http://dailybruin.com/images/2014/10/goldmanaudio.mp3",
 			"title": "China's story",
 			"description": "Lorem ipsum dolor sit amet, mea dolor ponderum nominati id, te errem saperet lobortis eam. Omnes fabellas urbanitas ei his. Eam movet reprimique in, te tritani sapientem cum. Ei justo mundi graeco has, ponderum torquatos ne est. Sit te doctus eripuit."
+		},
+		{
+			"country_code": "CAN",
+			"professor": "Professor Canada",
+			"audio_link": "http://dailybruin.com/images/2014/10/goldmanaudio.mp3",
+			"title": "Canada's story",
+			"description": "Lorem ipsum dolor sit amet, mea dolor ponderum nominati id, te errem saperet lobortis eam. Omnes fabellas urbanitas ei his. Eam movet reprimique in, te tritani sapientem cum. Ei justo mundi graeco has, ponderum torquatos ne est. Sit te doctus eripuit."
 		}
 ]
