@@ -53,4 +53,11 @@ $(".CAN").on('click', function(){
 	alert("hello");
 })
 
-console.log(story_data);
+
+$('#stories').ready(function(){
+		for (var i = 0; i < story_data.length; i++) {
+			console.log(story_data[i]);
+		}
+	}
+);
+
