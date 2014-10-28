@@ -39,6 +39,7 @@ var map = new Datamap(
             		return ['<div class="hoverinfo">', story_data[i].title, '<br>',
             		'Country: ',story_data[i].country_name,
             		'<br>', 'Professor: ', story_data[i].professor, '</div>'].join('');
+     
             	}
             }
          
@@ -57,15 +58,19 @@ function scrollToAnchor(aid){
     $('html,body').animate({scrollTop: aTag.offset().top},'slow');
 }
 
+
 $(document).ready(function(){
 	for (var i = 0; i < story_data.length; i++) {
 		$("#stories").append(
-			'<a name="' + story_data[i].country_code + '" />' +
-			'<div class="story_box">'+'<h2>'+story_data[i].title+'</h2>'+
-			'<p>'+'Professor: '+story_data[i].professor+'</p>'+
-			'<p>'+story_data[i].description+'</p>'+
-			'<audio controls preload="none">'+'<source src="'+story_data[i].audio_link+'" type="audio/mpeg">'+'</audio>'+
-			'<a class = "link_to_top">Back to Top</a>'
+			 '<a name="' + story_data[i].country_code + '" />' 
+			 +'<div class="col-sm-6 col-md-4">'+'<div class="thumbnail">'+'<img src="'+story_data[i].image_link+'" alt="...">'
+     		 +'<div class="caption">'+'<h3>'+ story_data[i].title+ '</h3>'
+     		 +'<p>'+'Professor: '+story_data[i].professor+'</p>'
+        	 +'<p>'+story_data[i].description+'</p>'
+        	 +'<audio controls preload="none">'+'<source src="'+story_data[i].audio_link+'" type="audio/mpeg">'+'</audio>' +
+        	 '<a class = "link_to_top">Back to Top</a>' 
+        	 +'</div>'+'</div>'+'</div>'
+        	 
 		)}
 	}
 );
