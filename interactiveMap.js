@@ -67,16 +67,13 @@ $(document).ready(function(){
         	 +'<p>'+story_data[i].description+'</p>'
         	 +'<audio controls preload="none">'+'<source src="'+story_data[i].audio_link+'" type="audio/mpeg">'+'</audio>'
         	 +'</div>'+'</div>'+'</div>'
-			/*'<a name="' + story_data[i].country_code + '"</a>' +
-			'<div class="story_box">'+'<h2>'+story_data[i].title+'</h2>'+
-			'<p>'+'Professor: '+story_data[i].professor+'</p>'+
-			'<p>'+story_data[i].description+'</p>'+
-			'<audio controls preload="none">'+'<source src="'+story_data[i].audio_link+'" type="audio/mpeg">'+'</audio>'*/
 		)}
 	}
 );
 
 
-$(".CAN").on('click', function(){
-	scrollToAnchor('CAN')
+$(".datamaps-subunit").on('click', function(){
+	console.log($(this).attr("class"));
+	var country_code = $(this).attr("class").split(' ')[1]; 
+	scrollToAnchor(country_code); 
 })
