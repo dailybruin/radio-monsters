@@ -7,7 +7,7 @@
 		        'USA': '#1f77b4',
 		        'HTI': '#9467bd',
 		        'JPN': '#ff7f0e',
-		        'PRC': '#2ca02c',
+		        'CHN': '#2ca02c',
 		        'IND': '#e377c2',
 		        'GBR': '#8c564b',
 		        'FRA': '#d62728',
@@ -17,7 +17,7 @@
 		    data: {
 		        'JPN': {fillKey: 'JPN'},
 		        'HTI': {fillKey: 'HTI'},
-		        'PRC': {fillKey: 'PRC'},
+		        'CHN': {fillKey: 'CHN'},
 		        'IND': {fillKey: 'IND'},
 		        'GBR': {fillKey: 'GBR'},
 		        'FRA': {fillKey: 'FRA'},
@@ -51,3 +51,5 @@
     $(".CAN").on('click', function(){
     	alert("hello");
     })
+
+console.log(story_data);
