@@ -3,6 +3,7 @@ var story_data = [
 		{
 			"country_name": "Japan",
 			"country_code": "JPN",
+			"image_link": "placeholder.jpg",
 			"professor": "Professor Japan",
 			"audio_link": "http://dailybruin.com/images/2014/10/goldmanaudio.mp3",
 			"title": "Japan's story",
@@ -11,6 +12,7 @@ var story_data = [
 		{
 			"country_name": "Haiti",
 			"country_code": "HTI",
+			"image_link": "placeholder.jpg",
 			"professor": "Professor Haiti",
 			"audio_link": "http://dailybruin.com/images/2014/10/goldmanaudio.mp3",
 			"title": "Haiti's story",
@@ -19,6 +21,7 @@ var story_data = [
 		{
 			"country_name": "China",
 			"country_code": "CHN",
+			"image_link": "placeholder.jpg",
 			"professor": "Professor China",
 			"audio_link": "http://dailybruin.com/images/2014/10/goldmanaudio.mp3",
 			"title": "China's story",
@@ -27,6 +30,7 @@ var story_data = [
 		{
 			"country_name": "Canada",
 			"country_code": "CAN",
+			"image_link": "placeholder.jpg",
 			"professor": "Professor Canada",
 			"audio_link": "http://dailybruin.com/images/2014/10/goldmanaudio.mp3",
 			"title": "Canada's story",
