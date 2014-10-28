@@ -75,4 +75,5 @@ $(".CAN").on('click', function(){
 })
 
 $(".datamaps-subunit").on('click', function(){
+	console.log($(this).attr("class"));
 })
