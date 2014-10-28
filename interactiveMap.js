@@ -47,17 +47,13 @@ var map = new Datamap(
     $("h1").flicker();
 }());
 
-
+function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
 
 $(".CAN").on('click', function(){
-	alert("hello");
+	scrollToAnchor('CAN')
 })
 
-
-$('#stories').ready(function(){
-		for (var i = 0; i < story_data.length; i++) {
-			console.log(story_data[i]);
-		}
-	}
-);
 
