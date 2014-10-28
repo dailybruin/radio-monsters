@@ -70,10 +70,8 @@ $(document).ready(function(){
 );
 
 
-$(".CAN").on('click', function(){
-	scrollToAnchor('CAN')
-})
-
 $(".datamaps-subunit").on('click', function(){
 	console.log($(this).attr("class"));
+	var country_code = $(this).attr("class").split(' ')[1]; 
+	scrollToAnchor(country_code); 
 })
