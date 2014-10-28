@@ -55,7 +55,7 @@ function scrollToAnchor(aid){
 $(document).ready(function(){
 	for (var i = 0; i < story_data.length; i++) {
 		$("#stories").append(
-			'<a name="' + story_data[i].country_code + '"</a>' +
+			'<a name="' + story_data[i].country_code + '" />' +
 			'<div class="story_box">'+'<h2>'+story_data[i].title+'</h2>'+
 			'<p>'+'Professor: '+story_data[i].professor+'</p>'+
 			'<p>'+story_data[i].description+'</p>'+
@@ -67,4 +67,7 @@ $(document).ready(function(){
 
 $(".CAN").on('click', function(){
 	scrollToAnchor('CAN')
+})
+
+$(".datamaps-subunit").on('click', function(){
 })
