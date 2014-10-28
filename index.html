@@ -67,7 +67,17 @@
 	            	console.log(data.name);
 	            	console.log(geography.properties);
 	            });
-	        }
+	        },
+
+	        geographyConfig: {
+            popupTemplate: function(geo, data) {
+            	if (geo.properties.name == "United States of America")
+                {
+                	return ['<div class="hoverinfo">','Country: '+
+                    geo.properties.name + '<br>'+ 'Professor: ','</div>'].join('');}
+             
+            }
+        }
 
     	});
 
