@@ -2,34 +2,8 @@ var map = new Datamap(
 	{
 		element: document.getElementById('container'),
 		scope: 'world',
-	    fills: {
-	        'USA': '#1f77b4',
-	        'HTI': '#9467bd',
-	        'JPN': '#ff7f0e',
-	        'CHN': '#2ca02c',
-	        'IND': '#e377c2',
-	        'GBR': '#8c564b',
-	        'FRA': '#d62728',
-	        'PAK': '#7f7f7f',
-	        defaultFill: 'gray'
-	    },
-	    data: {
-	        'JPN': {fillKey: 'JPN'},
-	        'HTI': {fillKey: 'HTI'},
-	        'CHN': {fillKey: 'CHN'},
-	        'IND': {fillKey: 'IND'},
-	        'GBR': {fillKey: 'GBR'},
-	        'FRA': {fillKey: 'FRA'},
-	        'PAK': {fillKey: 'PAK'},
-	        'USA': {fillKey: 'USA'}
-	    },
-	        done: function(datamap) {
-            datamap.svg.selectAll('.datamaps-subunit').on('click', function(geography, data) {
-            	console.log(data.name);
-            	console.log(geography.properties);
-            });
-        },
-
+	    fills: map_colors, // refer to data.js
+	    data: fill_keys, // refer to data.js
         geographyConfig: {
         popupTemplate: function(geo, data) {
         	for (var i = 0; i < story_data.length; i++) 
@@ -49,9 +23,9 @@ var map = new Datamap(
 	});
 
 
-(function() {
-    $("h1").flicker();
-}());
+$("h1").flicker();
+
+// via http://stackoverflow.com/questions/8579643/simple-jquery-scroll-to-anchor-up-or-down-the-page
 
 function scrollToAnchor(aid){
     var aTag = $("a[name='"+ aid +"']");
@@ -60,7 +34,7 @@ function scrollToAnchor(aid){
 
 
 $(document).ready(function(){
-	for (var i = 0; i < story_data.length; i++) {
+	for (var i = 0; i < story_data.length; i++) { // story_data defined in data.js
 		$("#stories").append(
 			 '<a name="' + story_data[i].country_code + '" />' 
 			 +'<div class="col-sm-6 col-md-4">'+'<div class="thumbnail">'+'<img src="'+story_data[i].image_link+'" alt="...">'
@@ -77,16 +51,10 @@ $(document).ready(function(){
 		$(".toplink").on('click', function() {
 			scrollToAnchor("top");
 		})
-
 	}
 );
 
-
-
-
 $(".datamaps-subunit").on('click', function(){
-	console.log($(this).attr("class"));
 	var country_code = $(this).attr("class").split(' ')[1]; 
 	scrollToAnchor(country_code); 
 })
-
