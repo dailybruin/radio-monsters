@@ -36,8 +36,9 @@ function scrollToAnchor(aid){
 $(document).ready(function(){
 	for (var i = 0; i < story_data.length; i++) { // story_data defined in data.js
 		$("#stories").append(
-			 '<a name="' + story_data[i].country_code + '" />' 
-			 +'<div class="col-sm-6 col-md-4">'+'<div class="thumbnail">'+'<img src="'+story_data[i].image_link+'" alt="...">'
+			 '<div class="col-sm-6 col-md-4">'+'<div class="thumbnail">'
+             +'<a name="' + story_data[i].country_code + '" />' 
+             +'<img src="'+story_data[i].image_link+'" alt="...">'
      		 +'<div class="caption">'+'<h3>'+ story_data[i].title+ '</h3>'
      		 +'<p>'+'Professor: '+story_data[i].professor+'</p>'
         	 +'<p>'+story_data[i].description+'</p>'
