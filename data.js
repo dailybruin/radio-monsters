@@ -15,7 +15,7 @@ var story_data = [
 			"image_link": "placeholder.jpg",
 			"professor": "Professor Robin Derby, Latin American and Caribbean History",
 			"audio_link": "http://dailybruin.com/images/2014/10/baka.mp3",
-			"title": "Bacá/Baka",
+			"title": "Bac&aacute;/Baka",
 			"description": "Professor Robin Derby shares a few stories she has collected on shapeshifter demons from Haiti and the Dominican Republic."
 		},
 		{
