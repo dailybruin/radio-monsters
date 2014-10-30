@@ -1,9 +1,12 @@
-#title {
+#main-title {
     font-size: 80px;
-	font-family: 'Creepster', cursive;
+	font-family: 'Changa One', cursive;
 	text-align: center;
 	color:red;
    }
+#sub-title{
+	color:grey;
+}
 #container {
 	position: relative;
 	width: 100%;
