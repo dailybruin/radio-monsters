@@ -35,7 +35,16 @@ var story_data = [
 			"audio_link": "http://dailybruin.com/images/2014/10/goldmanaudio.mp3",
 			"title": "Canada's story",
 			"description": "Lorem ipsum dolor sit amet, mea dolor ponderum nominati id, te errem saperet lobortis eam. Omnes fabellas urbanitas ei his. Eam movet reprimique in, te tritani sapientem cum. Ei justo mundi graeco has, ponderum torquatos ne est. Sit te doctus eripuit."
-		}
+		},
+		{
+			"country_name": "Hungary",
+			"country_code": "HUN",
+			"image_link": "placeholder.jpg",
+			"professor": "Professor Berend",
+			"audio_link": "http://dailybruin.com/images/2014/10/profberendmp3.mp3",
+			"title": "Candles in the Windows",
+			"description": "Professor Ivan Berend shares a memory of Budapest on November 1, the Day of the Dead, a week after the onset of the Hungarian Revolution of 1956. "
+		},
 ]
 
 var map_colors = {
@@ -46,7 +55,7 @@ var map_colors = {
     'IND': '#e377c2',
     'GBR': '#8c564b',
     'CAN': '#d62728',
-    'PAK': '#7f7f7f',
+    'HUN': 'red',
     defaultFill: 'gray'
 }
 
@@ -57,6 +66,6 @@ var fill_keys = {
     'IND': {fillKey: 'IND'},
     'GBR': {fillKey: 'GBR'},
     'CAN': {fillKey: 'CAN'},
-    'PAK': {fillKey: 'PAK'},
+    'HUN': {fillKey: 'HUN'},
     'USA': {fillKey: 'USA'}
 }
