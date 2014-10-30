@@ -10,9 +10,9 @@ var map = new Datamap(
         	{
         		if (geo.properties.name == story_data[i].country_name)
             	{
-            		return ['<div class="hoverinfo">', story_data[i].title, '<br>',
+            		return ['<div class="hoverinfo"><strong>Story: ', story_data[i].title, '</strong><br>',
             		'Country: ',story_data[i].country_name,
-            		'<br>', 'Professor: ', story_data[i].professor, '</div>'].join('');
+            		'<br>', story_data[i].professor, '</div>'].join('');
      
             	}
             }
@@ -40,7 +40,7 @@ $(document).ready(function(){
              +'<a name="' + story_data[i].country_code + '" />' 
              +'<img class="story-img" src="'+story_data[i].image_link+'" alt="...">'
      		 +'<div class="caption">'+'<h3>'+ story_data[i].title+ '</h3>'
-     		 +'<p>'+'Professor: '+story_data[i].professor+'</p>'
+     		 +'<p>Country: '+story_data[i].country_name+'<br>'+story_data[i].professor+'</p>'
         	 +'<p>'+story_data[i].description+'</p>'
         	 +'<audio controls preload="none">'+'<source src="'+story_data[i].audio_link+'" type="audio/mpeg">'+'</audio>' 
         	 +'<div class="toplink">'

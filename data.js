@@ -1,15 +1,6 @@
 
 var story_data = [
 		{
-			"country_name": "Japan",
-			"country_code": "JPN",
-			"image_link": "placeholder.jpg",
-			"professor": "Professor Japan",
-			"audio_link": "http://dailybruin.com/images/2014/10/goldmanaudio.mp3",
-			"title": "Japan's story",
-			"description": "Lorem ipsum dolor sit amet, mea dolor ponderum nominati id, te errem saperet lobortis eam. Omnes fabellas urbanitas ei his. Eam movet reprimique in, te tritani sapientem cum. Ei justo mundi graeco has, ponderum torquatos ne est. Sit te doctus eripuit."
-		},
-		{
 			"country_name": "Haiti",
 			"country_code": "HTI",
 			"image_link": "placeholder.jpg",
@@ -19,35 +10,26 @@ var story_data = [
 			"description": "Professor Robin Derby shares a few stories she has collected on shapeshifter demons from Haiti and the Dominican Republic."
 		},
 		{
-			"country_name": "China",
-			"country_code": "CHN",
-			"image_link": "placeholder.jpg",
-			"professor": "Professor Andrea Goldman, Chinese History",
-			"audio_link": "http://dailybruin.com/images/2014/10/goldmanaudio1.mp3",
-			"title": "Painted Skin",
-			"description": "All is not what it seems to be in this piece of Chinese folklore, which features a monster using a sheet and paintbrush to conceal its true identity.."
-		},
-		{
-			"country_name": "Canada",
-			"country_code": "CAN",
-			"image_link": "placeholder.jpg",
-			"professor": "Professor Canada",
-			"audio_link": "http://dailybruin.com/images/2014/10/goldmanaudio.mp3",
-			"title": "Canada's story",
-			"description": "Lorem ipsum dolor sit amet, mea dolor ponderum nominati id, te errem saperet lobortis eam. Omnes fabellas urbanitas ei his. Eam movet reprimique in, te tritani sapientem cum. Ei justo mundi graeco has, ponderum torquatos ne est. Sit te doctus eripuit."
-		},
-		{
 			"country_name": "Hungary",
 			"country_code": "HUN",
 			"image_link": "placeholder.jpg",
 			"professor": "Professor Berend, European History",
 			"audio_link": "http://dailybruin.com/images/2014/10/profberendmp3.mp3",
 			"title": "Candles in the Windows",
-			"description": "Professor Ivan Berend shares a memory of Budapest on November 1, the Day of the Dead, a week after the onset of the Hungarian Revolution of 1956. "
+			"description": "Professor Ivan Berend shares a memory of Budapest on November 1, the Day of the Dead, a week after the onset of the Hungarian Revolution of 1956. <br> <br>"
 		},
 		{
-			"country_name": "Pakistan",
-			"country_code": "PAK",
+			"country_name": "China",
+			"country_code": "CHN",
+			"image_link": "placeholder.jpg",
+			"professor": "Professor Andrea Goldman, Chinese History",
+			"audio_link": "http://dailybruin.com/images/2014/10/goldmanaudio1.mp3",
+			"title": "Painted Skin",
+			"description": "All is not what it seems to be in this piece of Chinese folklore, which features a monster using a sheet and paintbrush to conceal its true identity. <br> <br>"
+		},
+		{
+			"country_name": "India",
+			"country_code": "IND",
 			"image_link": "placeholder.jpg",
 			"professor": "Professor Nile Green, Islamic History",
 			"audio_link": "http://dailybruin.com/images/2014/10/churail.mp3",
@@ -61,21 +43,46 @@ var story_data = [
 			"professor": "Professor Nile Green, Islamic History",
 			"audio_link": "http://dailybruin.com/images/2014/10/aishaqadisha.mp3",
 			"title": "Aisha Qadisha",
-			"description": "Islamic history professor Nile Green recounts the origins of the Aisha Qadisha, female jinns, or genies, that are created by fire and seduce men. "
+			"description": "Islamic history professor Nile Green recounts the origins of the Aisha Qadisha, female jinns, or genies, that are created by fire and seduce men. <br> <br>"
 		},
+		{
+			"country_name": "Japan",
+			"country_code": "JPN",
+			"image_link": "placeholder.jpg",
+			"professor": "Professor Torquil Duthie, Japanese literature",
+			"audio_link": "http://dailybruin.com/images/2014/10/aishaqadisha.mp3",
+			"title": "The Voice in the Cave",
+			"description": "Islamic history professor Nile Green recounts the origins of the Aisha Qadisha, female jinns, or genies, that are created by fire and seduce men. <br> <br>"
+		},
+		{
+			"country_name": "South Korea",
+			"country_code": "KOR",
+			"image_link": "placeholder.jpg",
+			"professor": "Professor Tim Tangherlini, Korean literature",
+			"audio_link": "http://dailybruin.com/images/2014/10/aishaqadisha.mp3",
+			"title": "The Voice in the Cave",
+			"description": "While in Seoul, Professor Tangherlini hears a story from a cab driver with a passenger who is not who she initially appears to be."
+		},
+		{
+			"country_name": "Denmark",
+			"country_code": "DNK",
+			"image_link": "placeholder.jpg",
+			"professor": "Professor Tim Tangherlini, Scandanavian literature",
+			"audio_link": "http://dailybruin.com/images/2014/10/aishaqadisha.mp3",
+			"title": "The Voice in the Cave",
+			"description": "Professor Tangherlini shares a secondhand account of a woman who knocks on the door in the middle of the night trying to escape her boyfriend."
+		}
 ]
 
 var map_colors = {
-    'USA': '#1f77b4',
     'HTI': '#9467bd',
-    'JPN': '#ff7f0e',
+    'HUN': '#00008B',
     'CHN': '#2ca02c',
     'IND': '#e377c2',
-    'GBR': '#8c564b',
-    'CAN': '#d62728',
-    'HUN': '#00008B',
-    'PAK': '#663399',
-    'MAR': '#800080',  
+    'MAR': '#800080',
+    'JPN': '#ff7f0e',
+    'KOR': '#1f77b4',
+    'DNK': '#663399',  
     defaultFill: 'gray'
 }
 
@@ -84,10 +91,8 @@ var fill_keys = {
     'HTI': {fillKey: 'HTI'},
     'CHN': {fillKey: 'CHN'},
     'IND': {fillKey: 'IND'},
-    'GBR': {fillKey: 'GBR'},
-    'CAN': {fillKey: 'CAN'},
     'HUN': {fillKey: 'HUN'},
-    'USA': {fillKey: 'USA'},
-    'PAK': {fillKey: 'PAK'},
+    'KOR': {fillKey: 'KOR'},
+    'DNK': {fillKey: 'DNK'},
     'MAR': {fillKey: 'MAR'},
 }
