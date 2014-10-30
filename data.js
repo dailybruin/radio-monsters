@@ -3,7 +3,7 @@ var story_data = [
 		{
 			"country_name": "Haiti",
 			"country_code": "HTI",
-			"image_link": "placeholder.jpg",
+			"image_link": "http://flagpedia.net/data/flags/normal/ht.png",
 			"professor": "Professor Robin Derby, Latin American and Caribbean History",
 			"audio_link": "http://dailybruin.com/images/2014/10/baka.mp3",
 			"title": "Bac&aacute;/Baka",
@@ -12,7 +12,7 @@ var story_data = [
 		{
 			"country_name": "Hungary",
 			"country_code": "HUN",
-			"image_link": "placeholder.jpg",
+			"image_link": "http://flagpedia.net/data/flags/normal/hu.png",
 			"professor": "Professor Berend, European History",
 			"audio_link": "http://dailybruin.com/images/2014/10/profberendmp3.mp3",
 			"title": "Candles in the Windows",
@@ -21,7 +21,7 @@ var story_data = [
 		{
 			"country_name": "China",
 			"country_code": "CHN",
-			"image_link": "placeholder.jpg",
+			"image_link": "http://flagpedia.net/data/flags/normal/cn.png",
 			"professor": "Professor Andrea Goldman, Chinese History",
 			"audio_link": "http://dailybruin.com/images/2014/10/goldmanaudio1.mp3",
 			"title": "Painted Skin",
@@ -30,7 +30,7 @@ var story_data = [
 		{
 			"country_name": "India",
 			"country_code": "IND",
-			"image_link": "placeholder.jpg",
+			"image_link": "http://flagpedia.net/data/flags/normal/in.png",
 			"professor": "Professor Nile Green, Islamic History",
 			"audio_link": "http://dailybruin.com/images/2014/10/churail.mp3",
 			"title": "Churail",
@@ -39,7 +39,7 @@ var story_data = [
 		{
 			"country_name": "Morocco",
 			"country_code": "MAR",
-			"image_link": "placeholder.jpg",
+			"image_link": "http://flagpedia.net/data/flags/normal/ma.png",
 			"professor": "Professor Nile Green, Islamic History",
 			"audio_link": "http://dailybruin.com/images/2014/10/aishaqadisha.mp3",
 			"title": "Aisha Qadisha",
@@ -48,7 +48,7 @@ var story_data = [
 		{
 			"country_name": "Japan",
 			"country_code": "JPN",
-			"image_link": "placeholder.jpg",
+			"image_link": "http://flagpedia.net/data/flags/normal/jp.png",
 			"professor": "Professor Torquil Duthie, Japanese literature",
 			"audio_link": "http://dailybruin.com/images/2014/10/aishaqadisha.mp3",
 			"title": "The Voice in the Cave",
@@ -57,7 +57,7 @@ var story_data = [
 		{
 			"country_name": "South Korea",
 			"country_code": "KOR",
-			"image_link": "placeholder.jpg",
+			"image_link": "http://flagpedia.net/data/flags/normal/kr.png",
 			"professor": "Professor Tim Tangherlini, Korean literature",
 			"audio_link": "http://dailybruin.com/images/2014/10/aishaqadisha.mp3",
 			"title": "The Voice in the Cave",
@@ -66,7 +66,7 @@ var story_data = [
 		{
 			"country_name": "Denmark",
 			"country_code": "DNK",
-			"image_link": "placeholder.jpg",
+			"image_link": "http://flagpedia.net/data/flags/normal/dk.png",
 			"professor": "Professor Tim Tangherlini, Scandanavian literature",
 			"audio_link": "http://dailybruin.com/images/2014/10/aishaqadisha.mp3",
 			"title": "The Voice in the Cave",
