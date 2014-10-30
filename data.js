@@ -60,7 +60,7 @@ var story_data = [
 			"image_link": "http://flagpedia.net/data/flags/normal/kr.png",
 			"professor": "Professor Tim Tangherlini, Korean literature",
 			"audio_link": "http://dailybruin.com/images/2014/10/aishaqadisha.mp3",
-			"title": "The Voice in the Cave",
+			"title": "___",
 			"description": "While in Seoul, Professor Tangherlini hears a story from a cab driver with a passenger who is not who she initially appears to be."
 		},
 		{
@@ -69,7 +69,7 @@ var story_data = [
 			"image_link": "http://flagpedia.net/data/flags/normal/dk.png",
 			"professor": "Professor Tim Tangherlini, Scandanavian literature",
 			"audio_link": "http://dailybruin.com/images/2014/10/aishaqadisha.mp3",
-			"title": "The Voice in the Cave",
+			"title": "___",
 			"description": "Professor Tangherlini shares a secondhand account of a woman who knocks on the door in the middle of the night trying to escape her boyfriend."
 		}
 ]
