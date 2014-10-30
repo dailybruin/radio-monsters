@@ -23,7 +23,7 @@ var map = new Datamap(
 	});
 
 
-$("h1").flicker();
+$("#title-text").flicker();
 
 // via http://stackoverflow.com/questions/8579643/simple-jquery-scroll-to-anchor-up-or-down-the-page
 
