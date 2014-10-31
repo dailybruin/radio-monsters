@@ -69,12 +69,12 @@ var story_data = [
 			"image_link": "http://flagpedia.net/data/flags/normal/dk.png",
 			"professor": "Professor Tim Tangherlini, Scandanavian literature",
 			"audio_link": "http://dailybruin.com/images/2014/10/aishaqadisha.mp3",
-			"title": "___",
+			"title": "The Knock at the Caretaker’s Door",
 			"description": "Professor Tangherlini shares a secondhand account of a woman who knocks on the door in the middle of the night trying to escape her boyfriend."
 		},
 		{
 			"country_name": "France",
-			"country_code": "FRA",
+			"country_code": "FRA"
 			"image_link": "http://flagpedia.net/data/flags/normal/fr.png",
 			"professor": "Professor Teofilo Ruiz, Medieval European History",
 			"audio_link": "http://dailybruin.com/images/2014/10/france.mp3",
