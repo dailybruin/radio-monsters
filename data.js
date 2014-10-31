@@ -52,7 +52,7 @@ var story_data = [
 			"professor": "Professor Timothy Tangherlini, Korean Folklore",
 			"audio_link": "http://dailybruin.com/images/2014/10/koreastory.mp3",
 			"title": "The Mysterious Taxi Passenger",
-			"description": "Professor Tangherlini recounts a story told him by a cab driver in Seoul that features a strange passenger who isn’t who she initially appears to be."
+			"description": "Professor Tangherlini recounts a story told him by a cab driver in Seoul that features a strange passenger who is not who she initially appears to be."
 		},
 		{
 			"country_name": "Denmark",
@@ -88,7 +88,7 @@ var story_data = [
 			"professor": "Professor Ghislaine Lydon, West African History",
 			"audio_link": "http://dailybruin.com/images/2014/10/senegal.mp3",
 			"title": "A Senegalese Trick-or-Treat",
-			"description": "Professor Lydon describes the Senegalese tradition of trick or treating and how it relates to Mardi Gras celebrations in other parts of the world."
+			"description": "Professor Lydon describes the Senegalese tradition of trick or treating and how it relates to Mardi Gras celebrations in other parts of the world.<br><br>"
 		}, 
 		{
 			"country_name": "India",
