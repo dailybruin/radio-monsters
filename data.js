@@ -28,15 +28,6 @@ var story_data = [
 			"description": "All is not what it seems to be in this piece of Chinese folklore, which features a monster using a sheet and paintbrush to conceal its true identity. <br> <br>"
 		},
 		{
-			"country_name": "India",
-			"country_code": "IND",
-			"image_link": "http://flagpedia.net/data/flags/normal/in.png",
-			"professor": "Professor Vinay Lal, South Asian History",
-			"audio_link": "http://dailybruin.com/images/2014/10/indiastory.mp3",
-			"title": "Four Who Made a Lion; The Magic Pot",
-			"description": "Professor Lal shares two stories: a parable demonstrating the faults of formal learning and another playing on the idea of the double role in Indian folklore."
-		},
-		{
 			"country_name": "Morocco",
 			"country_code": "MAR",
 			"image_link": "http://flagpedia.net/data/flags/normal/ma.png",
@@ -98,11 +89,20 @@ var story_data = [
 			"audio_link": "http://dailybruin.com/images/2014/10/senegal.mp3",
 			"title": "A Senegalese Trick-or-Treat",
 			"description": "Professor Lydon describes the Senegalese tradition of trick or treating and how it relates to Mardi Gras celebrations in other parts of the world."
+		}, 
+		{
+			"country_name": "India",
+			"country_code": "IND",
+			"image_link": "http://flagpedia.net/data/flags/normal/in.png",
+			"professor": "Professor Vinay Lal, South Asian History",
+			"audio_link": "http://dailybruin.com/images/2014/10/indiastory.mp3",
+			"title": "Four Who Made a Lion; The Magic Pot",
+			"description": "Professor Lal shares two stories: a parable demonstrating the faults of formal learning and another playing on the idea of the double role in Indian folklore."
 		}
 ]
 
 var map_colors = {
-    'HTI': '#9467bd',
+    'HTI': '#ff69b4',
     'HUN': '#00008B',
     'CHN': '#2ca02c',
     'IND': '#e377c2',
@@ -112,7 +112,7 @@ var map_colors = {
     'DNK': '#663399',  
     'FRA': '#ff0000',
     'PAK': '#006400',
-    'SEN': '#ffff00', 
+    'SEN': '#ffff00',  
     defaultFill: 'gray'
 }
 
@@ -127,5 +127,5 @@ var fill_keys = {
     'MAR': {fillKey: 'MAR'},
     'FRA': {fillKey: 'FRA'},
     'PAK': {fillKey: 'PAK'},
-    'SEN': {fillKey: 'SEN'},
+    'SEN': {fillKey: 'SEN'}, 
 }
