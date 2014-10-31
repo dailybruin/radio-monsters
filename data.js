@@ -75,7 +75,7 @@ var story_data = [
 		{
 			"country_name": "France",
 			"country_code": "FRA",
-			"image_link": "http://flagpedia.net/data/flags/normal/dk.png",
+			"image_link": "http://flagpedia.net/data/flags/normal/fr.png",
 			"professor": "Professor Teofilo Ruiz, Medieval European History",
 			"audio_link": "http://dailybruin.com/images/2014/10/france.mp3",
 			"title": "The Loudun Possessions",
