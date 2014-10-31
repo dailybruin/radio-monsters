@@ -31,10 +31,10 @@ var story_data = [
 			"country_name": "India",
 			"country_code": "IND",
 			"image_link": "http://flagpedia.net/data/flags/normal/in.png",
-			"professor": "Professor Nile Green, Islamic History",
-			"audio_link": "http://dailybruin.com/images/2014/10/churail.mp3",
-			"title": "Churail",
-			"description": "Professor Green describes the South Asian spirit possession of the Churail, a female ghost who comes back to take revenge on men after dying in childbirth."
+			"professor": "Professor Vinay Lal, South Asian History",
+			"audio_link": "http://dailybruin.com/images/2014/10/indiastory.mp3",
+			"title": "Four Who Made a Lion; The Magic Pot",
+			"description": "Professor Lal shares two stories: a parable demonstrating the faults of formal learning and another playing on the idea of the double role in Indian folklore."
 		},
 		{
 			"country_name": "Morocco",
@@ -89,6 +89,15 @@ var story_data = [
 			"audio_link": "http://dailybruin.com/images/2014/10/churail.mp3",
 			"title": "The Churail",
 			"description": "Professor Green describes the South Asian spirit possession of the Churail, a female ghost who comes back to take revenge on men after dying in childbirth."
+		},
+		{
+			"country_name": "Senegal",
+			"country_code": "SEN", 
+			"image_link": "http://flagpedia.net/data/flags/normal/sn.png",
+			"professor": "Professor Ghislaine Lydon, West African History",
+			"audio_link": "http://dailybruin.com/images/2014/10/senegal.mp3",
+			"title": "A Senegalese Trick-or-Treat",
+			"description": "Professor Lydon describes the Senegalese tradition of trick or treating and how it relates to Mardi Gras celebrations in other parts of the world."
 		}
 ]
 
@@ -103,6 +112,7 @@ var map_colors = {
     'DNK': '#663399',  
     'FRA': '#ff0000',
     'PAK': '#006400',
+    'SEN': '#ffff00', 
     defaultFill: 'gray'
 }
 
@@ -117,4 +127,5 @@ var fill_keys = {
     'MAR': {fillKey: 'MAR'},
     'FRA': {fillKey: 'FRA'},
     'PAK': {fillKey: 'PAK'},
+    'SEN': {fillKey: 'SEN'},
 }
