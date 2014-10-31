@@ -71,6 +71,15 @@ var story_data = [
 			"audio_link": "http://dailybruin.com/images/2014/10/aishaqadisha.mp3",
 			"title": "___",
 			"description": "Professor Tangherlini shares a secondhand account of a woman who knocks on the door in the middle of the night trying to escape her boyfriend."
+		},
+		{
+			"country_name": "France",
+			"country_code": "FRA",
+			"image_link": "http://flagpedia.net/data/flags/normal/dk.png",
+			"professor": "Professor Teofilo Ruiz, Medieval European History",
+			"audio_link": "http://dailybruin.com/images/2014/10/france.mp3",
+			"title": "The Loudun Possessions",
+			"description": "Professor Ruiz separates fact from fiction in the story of real-life French Catholic priest Urbain Grandier, who was burned at the stake after being accused of witchcraft."
 		}
 ]
 
@@ -83,6 +92,7 @@ var map_colors = {
     'JPN': '#ff7f0e',
     'KOR': '#1f77b4',
     'DNK': '#663399',  
+    'FRA': '#ff0000',
     defaultFill: 'gray'
 }
 
@@ -95,4 +105,5 @@ var fill_keys = {
     'KOR': {fillKey: 'KOR'},
     'DNK': {fillKey: 'DNK'},
     'MAR': {fillKey: 'MAR'},
+    'FRA': {fillKey: 'FRA'},
 }
