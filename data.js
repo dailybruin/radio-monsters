@@ -69,7 +69,7 @@ var story_data = [
 			"image_link": "http://flagpedia.net/data/flags/normal/dk.png",
 			"professor": "Professor Tim Tangherlini, Scandanavian literature",
 			"audio_link": "http://dailybruin.com/images/2014/10/aishaqadisha.mp3",
-			"title": "The Knock at the Caretaker’s Door",
+			"title": "The Knock at the Caretaker&#39s Door",
 			"description": "Professor Tangherlini shares a secondhand account of a woman who knocks on the door in the middle of the night trying to escape her boyfriend."
 		},
 		{
