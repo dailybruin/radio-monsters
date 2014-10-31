@@ -74,12 +74,21 @@ var story_data = [
 		},
 		{
 			"country_name": "France",
-			"country_code": "FRA"
+			"country_code": "FRA",
 			"image_link": "http://flagpedia.net/data/flags/normal/fr.png",
 			"professor": "Professor Teofilo Ruiz, Medieval European History",
 			"audio_link": "http://dailybruin.com/images/2014/10/france.mp3",
 			"title": "The Loudun Possessions",
 			"description": "Professor Ruiz separates fact from fiction in the story of real-life French Catholic priest Urbain Grandier, who was burned at the stake after being accused of witchcraft."
+		},
+		{
+			"country_name": "Pakistan",
+			"country_code": "PAK", 
+			"image_link": "http://flagpedia.net/data/flags/normal/pk.png",
+			"professor": "Professor Nile Green, Islamic History",
+			"audio_link": "http://dailybruin.com/images/2014/10/churail.mp3",
+			"title": "The Churail",
+			"description": "Professor Green describes the South Asian spirit possession of the Churail, a female ghost who comes back to take revenge on men after dying in childbirth."
 		}
 ]
 
@@ -93,6 +102,7 @@ var map_colors = {
     'KOR': '#1f77b4',
     'DNK': '#663399',  
     'FRA': '#ff0000',
+    'PAK': '#006400',
     defaultFill: 'gray'
 }
 
@@ -106,4 +116,5 @@ var fill_keys = {
     'DNK': {fillKey: 'DNK'},
     'MAR': {fillKey: 'MAR'},
     'FRA': {fillKey: 'FRA'},
+    'PAK': {fillKey: 'PAK'},
 }
