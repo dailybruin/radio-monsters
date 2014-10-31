@@ -55,13 +55,13 @@ var story_data = [
 			"description": "Islamic history professor Nile Green recounts the origins of the Aisha Qadisha, female jinns, or genies, that are created by fire and seduce men. <br> <br>"
 		},
 		{
-			"country_name": "South Korea",
+			"country_name": "Korea",
 			"country_code": "KOR",
 			"image_link": "http://flagpedia.net/data/flags/normal/kr.png",
-			"professor": "Professor Tim Tangherlini, Korean literature",
-			"audio_link": "http://dailybruin.com/images/2014/10/aishaqadisha.mp3",
-			"title": "___",
-			"description": "While in Seoul, Professor Tangherlini hears a story from a cab driver with a passenger who is not who she initially appears to be."
+			"professor": "Professor Timothy Tangherlini, Korean Folklore",
+			"audio_link": "http://dailybruin.com/images/2014/10/koreastory.mp3",
+			"title": "The Mysterious Taxi Passenger",
+			"description": "Professor Tangherlini recounts a story told him by a cab driver in Seoul that features a strange passenger who isn’t who she initially appears to be."
 		},
 		{
 			"country_name": "Denmark",
