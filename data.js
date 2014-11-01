@@ -55,15 +55,6 @@ var story_data = [
 			"description": "Professor Tangherlini recounts a story told him by a cab driver in Seoul that features a strange passenger who is not who she initially appears to be."
 		},
 		{
-			"country_name": "Denmark",
-			"country_code": "DNK",
-			"image_link": "http://flagpedia.net/data/flags/normal/dk.png",
-			"professor": "Professor Tim Tangherlini, Scandanavian literature",
-			"audio_link": "http://dailybruin.com/images/2014/10/aishaqadisha.mp3",
-			"title": "The Knock at the Caretaker&#39s Door",
-			"description": "Professor Tangherlini shares a secondhand account of a woman who knocks on the door in the middle of the night trying to escape her boyfriend."
-		},
-		{
 			"country_name": "France",
 			"country_code": "FRA",
 			"image_link": "http://flagpedia.net/data/flags/normal/fr.png",
@@ -90,6 +81,15 @@ var story_data = [
 			"title": "A Senegalese Trick-or-Treat",
 			"description": "Professor Lydon describes the Senegalese tradition of trick or treating and how it relates to Mardi Gras celebrations in other parts of the world.<br><br>"
 		}, 
+		{
+			"country_name": "Denmark",
+			"country_code": "DNK",
+			"image_link": "http://flagpedia.net/data/flags/normal/dk.png",
+			"professor": "Professor Tim Tangherlini, Scandanavian literature",
+			"audio_link": "http://dailybruin.com/images/2014/10/aishaqadisha.mp3",
+			"title": "The Knock at the Caretaker&#39s Door",
+			"description": "Professor Tangherlini shares a secondhand account of a woman who knocks on the door in the middle of the night trying to escape her boyfriend.<br><br>"
+		},
 		{
 			"country_name": "India",
 			"country_code": "IND",
