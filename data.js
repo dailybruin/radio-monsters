@@ -46,15 +46,6 @@ var story_data = [
 			"description": "Islamic history professor Nile Green recounts the origins of the Aisha Qadisha, female jinns, or genies, that are created by fire and seduce men. <br> <br>"
 		},
 		{
-			"country_name": "Korea",
-			"country_code": "KOR",
-			"image_link": "http://flagpedia.net/data/flags/normal/kr.png",
-			"professor": "Professor Timothy Tangherlini, Korean Folklore",
-			"audio_link": "http://dailybruin.com/images/2014/10/koreastory.mp3",
-			"title": "The Mysterious Taxi Passenger",
-			"description": "Professor Tangherlini recounts a story told him by a cab driver in Seoul that features a strange passenger who is not who she initially appears to be."
-		},
-		{
 			"country_name": "France",
 			"country_code": "FRA",
 			"image_link": "http://flagpedia.net/data/flags/normal/fr.png",
@@ -63,24 +54,6 @@ var story_data = [
 			"title": "The Loudun Possessions",
 			"description": "Professor Ruiz separates fact from fiction in the story of real-life French Catholic priest Urbain Grandier, who was burned at the stake after being accused of witchcraft."
 		},
-		{
-			"country_name": "Pakistan",
-			"country_code": "PAK", 
-			"image_link": "http://flagpedia.net/data/flags/normal/pk.png",
-			"professor": "Professor Nile Green, Islamic History",
-			"audio_link": "http://dailybruin.com/images/2014/10/churail.mp3",
-			"title": "The Churail",
-			"description": "Professor Green describes the South Asian spirit possession of the Churail, a female ghost who comes back to take revenge on men after dying in childbirth."
-		},
-		{
-			"country_name": "Senegal",
-			"country_code": "SEN", 
-			"image_link": "http://flagpedia.net/data/flags/normal/sn.png",
-			"professor": "Professor Ghislaine Lydon, West African History",
-			"audio_link": "http://dailybruin.com/images/2014/10/senegal.mp3",
-			"title": "A Senegalese Trick-or-Treat",
-			"description": "Professor Lydon describes the Senegalese tradition of trick or treating and how it relates to Mardi Gras celebrations in other parts of the world.<br><br>"
-		}, 
 		{
 			"country_name": "Denmark",
 			"country_code": "DNK",
@@ -98,7 +71,35 @@ var story_data = [
 			"audio_link": "http://dailybruin.com/images/2014/10/indiastory.mp3",
 			"title": "Four Who Made a Lion; The Magic Pot",
 			"description": "Professor Lal shares two stories: a parable demonstrating the faults of formal learning and another playing on the idea of the double role in Indian folklore."
+		},
+		{
+			"country_name": "Korea",
+			"country_code": "KOR",
+			"image_link": "http://flagpedia.net/data/flags/normal/kr.png",
+			"professor": "Professor Timothy Tangherlini, Korean Folklore",
+			"audio_link": "http://dailybruin.com/images/2014/10/koreastory.mp3",
+			"title": "The Mysterious Taxi Passenger",
+			"description": "Professor Tangherlini recounts a story told him by a cab driver in Seoul that features a strange passenger who is not who she initially appears to be. <br> <br>"
+		},
+		{
+			"country_name": "Pakistan",
+			"country_code": "PAK", 
+			"image_link": "http://flagpedia.net/data/flags/normal/pk.png",
+			"professor": "Professor Nile Green, Islamic History",
+			"audio_link": "http://dailybruin.com/images/2014/10/churail.mp3",
+			"title": "The Churail",
+			"description": "Professor Green describes the South Asian spirit possession of the Churail, a female ghost who comes back to take revenge on men after dying in childbirth. <br> <br>" 
+		},
+		{
+			"country_name": "Senegal",
+			"country_code": "SEN", 
+			"image_link": "http://flagpedia.net/data/flags/normal/sn.png",
+			"professor": "Professor Ghislaine Lydon, West African History",
+			"audio_link": "http://dailybruin.com/images/2014/10/senegal.mp3",
+			"title": "A Senegalese Trick-or-Treat",
+			"description": "Professor Lydon describes the Senegalese tradition of trick or treating and how it relates to Mardi Gras celebrations in other parts of the world.<br><br>"
 		}
+
 ]
 
 var map_colors = {
