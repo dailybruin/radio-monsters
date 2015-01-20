@@ -97,7 +97,7 @@ var story_data = [
 			"professor": "Professor Ghislaine Lydon, West African History",
 			"audio_link": "http://dailybruin.com/images/2014/10/senegal.mp3",
 			"title": "A Senegalese Trick-or-Treat",
-			"description": "Professor Lydon describes the Senegalese tradition of trick or treating and how it relates to Mardi Gras celebrations in other parts of the world.<br><br>"
+			"description": "Professor Lydon describes the Senegalese tradition of trick or treating and how it relates to Mardi Gras celebrations in other parts of the world.<br><br><br> "
 		}
 
 ]
