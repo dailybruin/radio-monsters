@@ -50,7 +50,7 @@ $(document).ready(function(){
         	 
 		)}
 		$(".toplink").on('click', function() {
-			scrollToAnchor("top");
+			scrollToAnchor('map');
 		})
 	}
 );
