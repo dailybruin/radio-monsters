@@ -44,7 +44,7 @@ $(document).ready(function(){
         	 +'<p>'+story_data[i].description+'</p>'
         	 +'<audio controls preload="none">'+'<source src="'+story_data[i].audio_link+'" type="audio/mpeg">'+'</audio>' 
         	 +'<div class="toplink">'
-        	 +'<button class="btn btn-default btn-md">Back to Top</button>' 
+        	 +'<button class="btn btn-default btn-md">Back to Map</button>' 
         	 +'</div>' 
         	 +'</div>'+'</div>' + '</div>'
         	 

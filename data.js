@@ -73,7 +73,7 @@ var story_data = [
 			"description": "Professor Lal shares two stories: a parable demonstrating the faults of formal learning and another playing on the idea of the double role in Indian folklore."
 		},
 		{
-			"country_name": "Korea",
+			"country_name": "South Korea",
 			"country_code": "KOR",
 			"image_link": "http://flagpedia.net/data/flags/normal/kr.png",
 			"professor": "Professor Timothy Tangherlini, Korean Folklore",
