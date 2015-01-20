@@ -53,6 +53,12 @@ $(document).ready(function(){
 	}
 );
 
+$(".datamaps-bubble").on('click', function(){
+    var data_info = $(this).attr("data-info");
+    var data_info_json = JSON.parse(data_info);
+    var country_code = data_info_json["country_code"];
+    scrollToAnchor(country_code); 
+})
 
 $(".datamaps-subunit").on('click', function(){
 	var country_code = $(this).attr("class").split(' ')[1]; 
