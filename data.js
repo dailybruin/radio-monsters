@@ -24,7 +24,7 @@ var story_data = [
 			"professor": "Professor Berend, European History",
 			"audio_link": "http://dailybruin.com/images/2014/10/profberendmp3.mp3",
 			"title": "Candles in the Windows",
-			"description": "Professor Ivan Berend shares a memory of Budapest on November 1, the Day of the Dead, a week after the onset of the Hungarian Revolution of 1956. <br>"
+			"description": "Professor Ivan Berend shares a memory of Budapest on November 1, the Day of the Dead, a week after the onset of the Hungarian Revolution of 1956. <br> <br>"
 		},
 		{
 			"country_name": "China",
@@ -115,7 +115,7 @@ var story_data = [
 			"professor": "Professor Timothy Tangherlini, Korean Folklore",
 			"audio_link": "http://dailybruin.com/images/2014/10/koreastory.mp3",
 			"title": "The Mysterious Taxi Passenger",
-			"description": "Professor Tangherlini recounts a story told him by a cab driver in Seoul that features a strange passenger who is not who she initially appears to be. <br>"
+			"description": "Professor Tangherlini recounts a story told him by a cab driver in Seoul that features a strange passenger who is not who she initially appears to be. <br> <br>"
 		},
 		{
 			"country_name": "Pakistan",
@@ -141,7 +141,7 @@ var story_data = [
 			"professor": "Professor Ghislaine Lydon, West African History",
 			"audio_link": "http://dailybruin.com/images/2014/10/senegal.mp3",
 			"title": "A Senegalese Trick-or-Treat",
-			"description": "Professor Lydon describes the Senegalese tradition of trick or treating and how it relates to Mardi Gras celebrations in other parts of the world.<br><br><br> "
+			"description": "Professor Lydon describes the Senegalese tradition of trick or treating and how it relates to Mardi Gras celebrations in other parts of the world.<br><br> "
 		}
 
 ]
