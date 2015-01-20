@@ -1,27 +1,25 @@
-var map = new Datamap(
+
+var bubble_map = new Datamap(
 	{
 		element: document.getElementById('container'),
 		scope: 'world',
 	    fills: map_colors, // refer to data.js
 	    data: fill_keys, // refer to data.js
         geographyConfig: {
-        popupTemplate: function(geo, data) {
-        	for (var i = 0; i < story_data.length; i++) 
-        	{
-        		if (geo.properties.name == story_data[i].country_name)
-            	{
-            		return ['<div class="hoverinfo"><strong>Story: ', story_data[i].title, '</strong><br>',
-            		'Country: ',story_data[i].country_name,
-            		'<br>', story_data[i].professor, '</div>'].join('');
-     
-            	}
-            }
-         
-        }
+             popupOnHover: false,
+             highlightOnHover: false,
     }
+});
 
-	});
-
+bubble_map.bubbles(story_data,
+    {
+        data: fill_keys,
+        fills: map_colors,
+        popupTemplate: function(geo, data) {
+        return '<div class="hoverinfo"><strong>Story: '+data.title+'</strong><br>'+'Country: '
+        +data.country_name+'<br>'+data.professor+'</div>' 
+        }
+    })
 
 $("#title-text").flicker();
 
@@ -55,7 +53,9 @@ $(document).ready(function(){
 	}
 );
 
+
 $(".datamaps-subunit").on('click', function(){
 	var country_code = $(this).attr("class").split(' ')[1]; 
+    console.log($(this));
 	scrollToAnchor(country_code); 
 })
